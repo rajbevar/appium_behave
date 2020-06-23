@@ -1,0 +1,182 @@
+[
+    {
+        "keyword": "Feature",
+        "name": "Imdb basic tests",
+        "tags": [
+            {
+                "name": "@android",
+                "line": 1
+            }
+        ],
+        "elements": [
+            {
+                "type": "scenario",
+                "keyword": "Scenario",
+                "name": "login test for IMDb",
+                "tags": [
+                    {
+                        "name": "@current",
+                        "line": 3
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "user is logged in with correct credientials",
+                        "line": 5,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "When",
+                        "name": "user clone ad banner",
+                        "line": 6,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "capture screenshot",
+                        "line": 7,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "menu should be present",
+                        "line": 8,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "user should be able to logout",
+                        "line": 9,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "page should have sign-in button",
+                        "line": 10,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    }
+                ],
+                "line": 4,
+                "uri": "features/android.feature",
+                "description": "",
+                "id": 1
+            },
+            {
+                "type": "scenario",
+                "keyword": "Scenario",
+                "name": "Share a movie with Email",
+                "tags": [],
+                "steps": [
+                    {
+                        "keyword": "When",
+                        "name": "user search for movie: \"Matrix\"",
+                        "line": 13,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "And",
+                        "name": "user clone ad banner",
+                        "line": 14,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "movie: \"Matrix\" should be in the results",
+                        "line": 15,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "user should be able to send email to: \"devicelab@qualifylabs.com\"",
+                        "line": 16,
+                        "result": {
+                            "status": "skipped",
+                            "duration": 0
+                        }
+                    }
+                ],
+                "line": 12,
+                "uri": "features/android.feature",
+                "description": "",
+                "id": 2
+            }
+        ],
+        "line": 2,
+        "uri": "features/android.feature",
+        "description": "",
+        "id": 0
+    },
+    {
+        "keyword": "Feature",
+        "name": "iOS Simple Tests for Swipe",
+        "tags": [
+            {
+                "name": "@ios",
+                "line": 2
+            },
+            {
+                "name": "@simple1",
+                "line": 2
+            }
+        ],
+        "elements": [
+            {
+                "type": "scenario",
+                "keyword": "Scenario",
+                "name": "run simple ios test",
+                "tags": [],
+                "steps": [
+                    {
+                        "keyword": "Given",
+                        "name": "button found",
+                        "match": {
+                            "location": "features/steps/steps.py:7",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 1.0440220832824707
+                        },
+                        "line": 6
+                    }
+                ],
+                "line": 5,
+                "uri": "features/ios_simple.feature",
+                "description": "",
+                "id": 2
+            }
+        ],
+        "line": 3,
+        "uri": "features/ios_simple.feature",
+        "description": "",
+        "id": 1
+    }
+]

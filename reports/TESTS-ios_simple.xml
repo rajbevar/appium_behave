@@ -1,0 +1,14 @@
+<testsuite errors="0" failures="0" hostname="Rajanis-MacBook-Air.local" name="ios_simple.iOS Simple Tests for Swipe" skipped="0" tests="1" time="1.214166" timestamp="2020-06-23T00:01:20.762275"><testcase classname="ios_simple.iOS Simple Tests for Swipe" name="run simple ios test" status="passed" time="1.214166"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: run simple ios test
+    Given button found ... passed in 1.214s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Successfully clicked
+
+]]>
+</system-out></testcase></testsuite>

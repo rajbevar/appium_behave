@@ -1,0 +1,29 @@
+<testsuite errors="0" failures="0" hostname="Rajanis-MacBook-Air.local" name="android.Imdb basic tests" skipped="2" tests="2" time="0.0" timestamp="2020-06-22T23:59:57.886170"><testcase classname="android.Imdb basic tests" name="login test for IMDb" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @current
+  Scenario: login test for IMDb
+    Given user is logged in with correct credientials ... skipped in 0.000s
+    When user clone ad banner ... skipped in 0.000s
+    Then capture screenshot ... skipped in 0.000s
+    Then menu should be present ... skipped in 0.000s
+    Then user should be able to logout ... skipped in 0.000s
+    Then page should have sign-in button ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="android.Imdb basic tests" name="Share a movie with Email" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Share a movie with Email
+    When user search for movie: "Matrix" ... skipped in 0.000s
+    And user clone ad banner ... skipped in 0.000s
+    Then movie: "Matrix" should be in the results ... skipped in 0.000s
+    Then user should be able to send email to: "devicelab@qualifylabs.com" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
